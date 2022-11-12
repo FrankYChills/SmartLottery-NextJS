@@ -1,0 +1,2 @@
+1. isWeb3Enabled becomes false after we refresh the page and we cant call contracts while that is false.We need to connect to wallet(auto connect here) or here we have to go to some other route so that isWeb3enabled becomes true.
+2. We have to send amount to contract in terms of GWEI
