@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,4 +25,5 @@ export default function Home() {
       </button>
     </div>
   );
-}
+};
+export default Home;
